@@ -26,3 +26,19 @@ function logger() {
 logger(); // invoking /running /calling the function. interchangeable terms for executing this code. 
 logger();
 logger(); // because it is a function you can easily call the same block of code multiple times 
+
+
+function fruitProcessor(apples, oranges) {     // example of function with 'parameters', variables that are specific only to this function and are defined when this function is called. 
+  console.log(apples, oranges);
+  const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+  return juice;  //the result of executing this function
+
+}                     
+
+const appleJuice = fruitProcessor(5,0) // the numbers in these praenthesis are the values to be assigned to the parameters in the fruitProessor function. 
+                    // the values of the parameters are called the 'arguments'.  after the function runs, the return line turns the called function into 'juice', so the function become a value, so to save that value, you need to assign a variable to is (appleJuice) and then printing that with a console log.  Alternatively you could print the value without assigning it to a variable, only logging the result. 
+
+
+console.log(appleJuice); // value assigned to variable and printed
+console.log(fruitProcessor(5,0)); // value printed as a result of the function running
+
