@@ -29,7 +29,6 @@ logger(); // because it is a function you can easily call the same block of code
 
 
 function fruitProcessor(apples, oranges) {     // example of function with 'parameters', variables that are specific only to this function and are defined when this function is called. 
-  console.log(apples, oranges);
   const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
   return juice;  //the result of executing this function
 
@@ -42,3 +41,11 @@ const appleJuice = fruitProcessor(5,0) // the numbers in these praenthesis are t
 console.log(appleJuice); // value assigned to variable and printed
 console.log(fruitProcessor(5,0)); // value printed as a result of the function running
 
+const appleOrangeJuice = fruitProcessor(2, 4);
+console.log(appleOrangeJuice);
+
+// keep your code DRY.  Dont Repeat Yourself.  Functions are a key to keeping your code DRY
+
+console.log(Number('23')); // dont forget there are built in functions also!
+const num = Number('11');
+console.log(num);
