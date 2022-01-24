@@ -179,3 +179,24 @@ if(language === 'english' && population < 50000000 && !isIsland) {
 
 population > 33000000 ? console.log(`${country}'s population is above average`) : console.log(`${country}'s population is below average.`);
 */
+
+// LECTURE: Functions
+// 1. Write a function called 'describeCountry' which takes three parameters:
+// 'country', 'population' and 'capitalCity'. Based on this input, the
+// function returns a string with this format: 'Finland has 6 million people and its
+// capital city is Helsinki'
+// 2. Call this function 3 times, with input data for 3 different countries. Store the
+// returned values in 3 different variables, and log them to the console
+
+function describeCountry(country, population, capitalCity) {
+  const countryDescription = `${country} has ${population} million people and its capital city is ${capitalCity}`;
+  return countryDescription
+}
+
+const describeUSA = describeCountry('United States', 330, 'Washington D.C.');
+console.log(describeUSA);
+const describeJapan = describeCountry('Japan', 125, 'Tokyo');
+console.log(describeJapan);
+const describePoland = describeCountry('Poland', 37, 'Warsaw');
+console.log(describePoland);
+

@@ -1,3 +1,4 @@
+
 'use strict';
 /*
 let hasDriversLicense = false;
@@ -16,7 +17,7 @@ const interface = 'Audio'; // with strict mode (Uncaught SyntaxError: Unexpected
 */
 
 // function holds one or more complete lines of code where a variable holds a value
-
+/*
 function logger() {
   // withing these curly braces is called 'the function buddy'
   // this is the code that gets ran when the function is called
@@ -49,3 +50,4 @@ console.log(appleOrangeJuice);
 console.log(Number('23')); // dont forget there are built in functions also!
 const num = Number('11');
 console.log(num);
+*/
