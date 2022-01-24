@@ -24,4 +24,5 @@ function logger() {
 }
 
 logger(); // invoking /running /calling the function. interchangeable terms for executing this code. 
-
+logger();
+logger(); // because it is a function you can easily call the same block of code multiple times 
